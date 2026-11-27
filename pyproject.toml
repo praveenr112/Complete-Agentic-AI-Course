@@ -1,0 +1,25 @@
+[project]
+name = "complete-agentic-ai-course"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "praveenr112", email = "praveenr112@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "langchain>=1.5.2",
+    "langchain-community>=0.4.2",
+    "langchain-google-genai>=4.5.3",
+    "langchain-groq>=1.2.1",
+    "langchain-openai>=1.8.5",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+complete-agentic-ai-course = "complete_agentic_ai_course:main"
+
+[build-system]
+requires = ["uv_build>=0.13.10,<0.14.0"]
+build-backend = "uv_build"
